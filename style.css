@@ -1,0 +1,37 @@
+.jumbotron {
+    background: url("img/bg-3.jpg") no-repeat 0 center;
+    background-size: cover;
+}
+h3 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+.linija {
+    width: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    margin:auto;
+    height: 1px;
+    margin-bottom: 70px;
+}
+.linijos {
+    width: 100px;
+    margin:auto;
+    height: 1px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.material-icons {
+    color: rgb(0, 255, 234);
+    font-size:40px;
+}
+.pilka {
+    background-color: rgb(204, 206, 206);
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding: 7rem 2rem;
+    }
+}
